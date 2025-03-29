@@ -13,8 +13,8 @@
     height: 90vh;
 }
 
- .ngee{
-    background: url('4.jpeg');
+ #banner .ngee{
+    background: url('/image/4.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
