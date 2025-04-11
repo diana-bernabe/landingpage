@@ -13,8 +13,8 @@
     height: 90vh;
 }
 
- #banner .ngee{
-    background: url('/image/4.jpeg');
+#banner .ngee{
+    background: url('4.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -52,4 +52,96 @@ color: black;
 
 .card-image-top{
     border: 2px solid black;
+
+}
+#services {
+    padding: 100px
+
+}
+
+.card {
+    border: none;
+
+}
+
+.card-img-top {
+    border: 2px solid #DD8365;
+}
+
+.testimonials{
+    border: 3px solid #41482B;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.testimonials img {
+    border-radius: 50%; 
+    width : 75px;
+
+}
+
+#reviews {
+    background-color: #fafafa;
+    padding: 100px 0;
+}
+
+#reviews h2 {
+    font-size: 68px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(57, 149, 134);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #b894ad;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:rgb(57, 149, 134);
+    color:  #b894ad;
+}
+.accordion-button:hover {
+    background-color: rgb(57, 149, 134);
+    color:  #b894ad;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #41482B;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
 }
